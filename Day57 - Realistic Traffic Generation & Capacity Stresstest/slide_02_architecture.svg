@@ -1,0 +1,167 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="archBg" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#071126" /><stop offset="60%" stop-color="#030712" /><stop offset="100%" stop-color="#010206" />
+    </radialGradient>
+    <linearGradient id="pGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eab308" /><stop offset="100%" stop-color="#84cc16" />
+    </linearGradient>
+    <linearGradient id="wireGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#eab308" /><stop offset="50%" stop-color="#10b981" /><stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    <filter id="bloom2" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#archBg)" />
+
+  <g opacity="0.08" stroke="#38bdf8" stroke-width="1">
+    <line x1="80" y1="0" x2="80" y2="1080" /><line x1="200" y1="0" x2="200" y2="1080" /><line x1="320" y1="0" x2="320" y2="1080" />
+    <line x1="440" y1="0" x2="440" y2="1080" /><line x1="560" y1="0" x2="560" y2="1080" /><line x1="680" y1="0" x2="680" y2="1080" />
+    <line x1="800" y1="0" x2="800" y2="1080" /><line x1="920" y1="0" x2="920" y2="1080" /><line x1="1040" y1="0" x2="1040" y2="1080" />
+    <line x1="0" y1="80" x2="1080" y2="80" /><line x1="0" y1="200" x2="1080" y2="200" /><line x1="0" y1="320" x2="1080" y2="320" />
+    <line x1="0" y1="440" x2="1080" y2="440" /><line x1="0" y1="560" x2="1080" y2="560" /><line x1="0" y1="680" x2="1080" y2="680" />
+    <line x1="0" y1="800" x2="1080" y2="800" /><line x1="0" y1="920" x2="1080" y2="920" />
+  </g>
+
+  <!-- Header -->
+  <g transform="translate(60, 48)">
+    <rect width="500" height="40" rx="20" fill="rgba(15, 23, 42, 0.85)" stroke="url(#pGrad2)" stroke-width="1.5" />
+    <circle cx="24" cy="20" r="6" fill="#eab308" filter="url(#bloom2)" />
+    <text x="44" y="25" font-size="12" font-weight="900" fill="#f8fafc" font-family="system-ui, sans-serif" letter-spacing="2">90 DAYS OF DEVOPS • TECHNICAL ARCHITECTURE</text>
+  </g>
+  <g transform="translate(860, 44)">
+    <rect width="160" height="48" rx="24" fill="url(#pGrad2)" />
+    <text x="80" y="30" text-anchor="middle" font-size="18" font-weight="900" fill="#030712" font-family="system-ui, sans-serif" letter-spacing="1.5">SLIDE 02 / 05</text>
+  </g>
+
+  <text x="60" y="130" font-size="13" font-weight="800" fill="#eab308" font-family="system-ui, sans-serif" letter-spacing="2.5">ISOMETRIC 3D TOPOLOGY</text>
+  <text x="60" y="170" font-size="32" font-weight="900" fill="#ffffff" font-family="system-ui, sans-serif">Realistic Traffic Generation &amp; Capacity Stresstest Architecture</text>
+  <text x="60" y="200" font-size="15" fill="#94a3b8" font-family="system-ui, sans-serif">End-to-end production dataflow across user, network, host runtime, and telemetry sinks</text>
+
+  <!-- Glowing Bus Wire Connecting All 5 Stages -->
+  <g transform="translate(0, 520)">
+    <path d="M 120,0 L 300,0 L 540,0 L 780,0 L 960,0" fill="none" stroke="url(#wireGrad)" stroke-width="4" filter="url(#bloom2)" />
+    <path d="M 120,0 L 300,0 L 540,0 L 780,0 L 960,0" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="8 8" />
+  </g>
+
+  <!-- STAGE 1: USER / SRE OPERATOR -->
+  <g transform="translate(130, 400)">
+    <polygon points="0,30 70,0 140,30 70,60" fill="#0f172a" stroke="#eab308" stroke-width="1.5" />
+    <polygon points="0,30 70,60 70,120 0,90" fill="#090d16" stroke="rgba(255,255,255,0.1)" />
+    <polygon points="70,60 140,30 140,90 70,120" fill="#04070e" stroke="rgba(255,255,255,0.1)" />
+    <g transform="translate(-15, -120)">
+      <rect width="170" height="120" rx="12" fill="rgba(11, 18, 33, 0.9)" stroke="#eab308" stroke-width="1.5" />
+      <rect width="170" height="26" rx="12" fill="rgba(0, 242, 254, 0.15)" />
+      <text x="85" y="18" text-anchor="middle" font-size="11" font-weight="900" fill="#eab308" font-family="system-ui, sans-serif">1. USER / CLIENT</text>
+      <text x="16" y="50" font-size="11" font-weight="700" fill="#ffffff" font-family="system-ui, sans-serif">Engineer Edge</text>
+      <text x="16" y="68" font-size="10" fill="#94a3b8" font-family="ui-monospace, monospace">TLS / HTTPS</text>
+      <text x="16" y="86" font-size="10" fill="#94a3b8" font-family="ui-monospace, monospace">CLI / REST API</text>
+      <circle cx="150" cy="100" r="5" fill="#10b981" filter="url(#bloom2)" />
+    </g>
+    <text x="70" y="150" text-anchor="middle" font-size="12" font-weight="800" fill="#eab308" font-family="system-ui, sans-serif">CLIENT LAYER</text>
+  </g>
+
+  <!-- STAGE 2: NETWORK / INGRESS -->
+  <g transform="translate(330, 360)">
+    <polygon points="0,30 70,0 140,30 70,60" fill="#0f172a" stroke="#84cc16" stroke-width="1.5" />
+    <polygon points="0,30 70,60 70,140 0,110" fill="#090d16" stroke="rgba(255,255,255,0.1)" />
+    <polygon points="70,60 140,30 140,110 70,140" fill="#04070e" stroke="rgba(255,255,255,0.1)" />
+    <g transform="translate(-15, -120)">
+      <rect width="170" height="120" rx="12" fill="rgba(11, 18, 33, 0.9)" stroke="#84cc16" stroke-width="1.5" />
+      <rect width="170" height="26" rx="12" fill="rgba(59, 130, 246, 0.15)" />
+      <text x="85" y="18" text-anchor="middle" font-size="11" font-weight="900" fill="#84cc16" font-family="system-ui, sans-serif">2. NETWORK</text>
+      <text x="16" y="50" font-size="11" font-weight="700" fill="#ffffff" font-family="system-ui, sans-serif">Ingress Gateway</text>
+      <text x="16" y="68" font-size="10" fill="#94a3b8" font-family="ui-monospace, monospace">mTLS / Strict</text>
+      <text x="16" y="86" font-size="10" fill="#94a3b8" font-family="ui-monospace, monospace">Route Table / VPC</text>
+      <circle cx="150" cy="100" r="5" fill="#10b981" filter="url(#bloom2)" />
+    </g>
+    <text x="70" y="170" text-anchor="middle" font-size="12" font-weight="800" fill="#84cc16" font-family="system-ui, sans-serif">NETWORK INGRESS</text>
+  </g>
+
+  <!-- STAGE 3: INFRASTRUCTURE / RUNTIME HOST (Visual Centerpiece) -->
+  <g transform="translate(540, 320)">
+    <polygon points="0,35 80,0 160,35 80,70" fill="#1e293b" stroke="#10b981" stroke-width="2" />
+    <polygon points="0,35 80,70 80,180 0,145" fill="#0f172a" stroke="rgba(255,255,255,0.15)" />
+    <polygon points="80,70 160,35 160,145 80,180" fill="#070b14" stroke="rgba(255,255,255,0.1)" />
+    <g transform="translate(-20, -140)">
+      <rect width="200" height="135" rx="14" fill="rgba(11, 18, 33, 0.95)" stroke="#10b981" stroke-width="2" filter="url(#bloom2)" />
+      <rect width="200" height="28" rx="14" fill="rgba(139, 92, 246, 0.2)" />
+      <text x="100" y="19" text-anchor="middle" font-size="11" font-weight="900" fill="#10b981" font-family="system-ui, sans-serif">3. INFRASTRUCTURE</text>
+      <text x="16" y="52" font-size="12" font-weight="800" fill="#ffffff" font-family="system-ui, sans-serif">Performance Core</text>
+      <text x="16" y="72" font-size="10" fill="#94a3b8" font-family="ui-monospace, monospace">cgroups / Namespaces</text>
+      <text x="16" y="90" font-size="10" fill="#94a3b8" font-family="ui-monospace, monospace">Zero-Drift Runtime</text>
+      <text x="16" y="112" font-size="10" font-weight="800" fill="#10b981" font-family="ui-monospace, monospace">● SYSTEM: HEALTHY</text>
+    </g>
+    <text x="80" y="210" text-anchor="middle" font-size="13" font-weight="900" fill="#10b981" font-family="system-ui, sans-serif">HOST INFRASTRUCTURE</text>
+  </g>
+
+  <!-- STAGE 4: APPLICATION / WORKLOAD -->
+  <g transform="translate(750, 360)">
+    <polygon points="0,30 70,0 140,30 70,60" fill="#0f172a" stroke="#10b981" stroke-width="1.5" />
+    <polygon points="0,30 70,60 70,140 0,110" fill="#090d16" stroke="rgba(255,255,255,0.1)" />
+    <polygon points="70,60 140,30 140,110 70,140" fill="#04070e" stroke="rgba(255,255,255,0.1)" />
+    <g transform="translate(-15, -120)">
+      <rect width="170" height="120" rx="12" fill="rgba(11, 18, 33, 0.9)" stroke="#10b981" stroke-width="1.5" />
+      <rect width="170" height="26" rx="12" fill="rgba(16, 185, 129, 0.15)" />
+      <text x="85" y="18" text-anchor="middle" font-size="11" font-weight="900" fill="#10b981" font-family="system-ui, sans-serif">4. APPLICATION</text>
+      <text x="16" y="50" font-size="11" font-weight="700" fill="#ffffff" font-family="system-ui, sans-serif">App Service</text>
+      <text x="16" y="68" font-size="10" fill="#94a3b8" font-family="ui-monospace, monospace">Health Probe Gate</text>
+      <text x="16" y="86" font-size="10" fill="#94a3b8" font-family="ui-monospace, monospace">Circuit Breaker</text>
+      <circle cx="150" cy="100" r="5" fill="#10b981" filter="url(#bloom2)" />
+    </g>
+    <text x="70" y="170" text-anchor="middle" font-size="12" font-weight="800" fill="#10b981" font-family="system-ui, sans-serif">APP DAEMON</text>
+  </g>
+
+  <!-- STAGE 5: MONITORING / TELEMETRY SINK -->
+  <g transform="translate(930, 400)">
+    <polygon points="0,30 70,0 140,30 70,60" fill="#0f172a" stroke="#eab308" stroke-width="1.5" />
+    <polygon points="0,30 70,60 70,120 0,90" fill="#090d16" stroke="rgba(255,255,255,0.1)" />
+    <polygon points="70,60 140,30 140,90 70,120" fill="#04070e" stroke="rgba(255,255,255,0.1)" />
+    <g transform="translate(-25, -120)">
+      <rect width="180" height="120" rx="12" fill="rgba(11, 18, 33, 0.9)" stroke="#eab308" stroke-width="1.5" />
+      <rect width="180" height="26" rx="12" fill="rgba(0, 242, 254, 0.15)" />
+      <text x="90" y="18" text-anchor="middle" font-size="11" font-weight="900" fill="#eab308" font-family="system-ui, sans-serif">5. MONITORING</text>
+      <text x="16" y="50" font-size="11" font-weight="700" fill="#ffffff" font-family="system-ui, sans-serif">Telemetry Sink</text>
+      <text x="16" y="68" font-size="10" fill="#94a3b8" font-family="ui-monospace, monospace">telemetry.json</text>
+      <text x="16" y="86" font-size="10" fill="#94a3b8" font-family="ui-monospace, monospace">Prometheus / Grafana</text>
+      <circle cx="160" cy="100" r="5" fill="#10b981" filter="url(#bloom2)" />
+    </g>
+    <text x="70" y="150" text-anchor="middle" font-size="12" font-weight="800" fill="#eab308" font-family="system-ui, sans-serif">OBSERVABILITY</text>
+  </g>
+
+  <!-- Technical Spec Summary Card at Bottom -->
+  <g transform="translate(60, 780)">
+    <rect width="960" height="180" rx="18" fill="rgba(15, 23, 42, 0.9)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1.5" />
+    <rect width="960" height="38" rx="18" fill="rgba(30, 41, 59, 0.6)" />
+    <circle cx="28" cy="19" r="5" fill="#ff5f56" /><circle cx="44" cy="19" r="5" fill="#ffbd2e" /><circle cx="60" cy="19" r="5" fill="#27c93f" />
+    <text x="80" y="24" font-size="12" font-weight="800" fill="#cbd5e1" font-family="ui-monospace, monospace">architecture_specification.hcl</text>
+
+    <g transform="translate(30, 60)">
+      <text x="0" y="20" font-size="13" font-weight="800" fill="#eab308" font-family="system-ui, sans-serif">PROTOCOL SPECIFICATION</text>
+      <text x="0" y="44" font-size="11" fill="#94a3b8" font-family="ui-monospace, monospace">• Ingress: Strict Mutual TLS (mTLS)</text>
+      <text x="0" y="66" font-size="11" fill="#94a3b8" font-family="ui-monospace, monospace">• Encryption: AES-256-GCM / SHA384</text>
+      <text x="0" y="88" font-size="11" fill="#94a3b8" font-family="ui-monospace, monospace">• Wire Format: Machine JSON Telemetry</text>
+    </g>
+    <g transform="translate(360, 60)">
+      <text x="0" y="20" font-size="13" font-weight="800" fill="#10b981" font-family="system-ui, sans-serif">ISOLATION &amp; RUNTIME</text>
+      <text x="0" y="44" font-size="11" fill="#94a3b8" font-family="ui-monospace, monospace">• Isolation: Kernel cgroups &amp; namespaces</text>
+      <text x="0" y="66" font-size="11" fill="#94a3b8" font-family="ui-monospace, monospace">• Trapping: Defensive signals (SIGTERM)</text>
+      <text x="0" y="88" font-size="11" fill="#94a3b8" font-family="ui-monospace, monospace">• Self-Healing: Automated supervisor loops</text>
+    </g>
+    <g transform="translate(700, 60)">
+      <text x="0" y="20" font-size="13" font-weight="800" fill="#10b981" font-family="system-ui, sans-serif">SRE SLA GUARANTEES</text>
+      <text x="0" y="44" font-size="11" fill="#94a3b8" font-family="ui-monospace, monospace">• High Availability: 99.99% Uptime Target</text>
+      <text x="0" y="66" font-size="11" fill="#94a3b8" font-family="ui-monospace, monospace">• Sampling Frequency: 1000ms Probes</text>
+      <text x="0" y="88" font-size="11" fill="#94a3b8" font-family="ui-monospace, monospace">• Telemetry Drift: 0.00% Zero-Drift</text>
+    </g>
+  </g>
+
+  <!-- Footer Watermark -->
+  <g transform="translate(60, 990)">
+    <text x="0" y="16" font-size="12" font-weight="700" fill="#64748b" font-family="system-ui, sans-serif">ARCHITECTURAL TOPOLOGY • 90 DAYS OF DEVOPS • SHUBHAM MANE</text>
+    <text x="960" y="16" text-anchor="end" font-size="12" font-weight="800" fill="#10b981" font-family="system-ui, sans-serif">VERIFIED ARCHITECTURE ✓</text>
+  </g>
+</svg>
