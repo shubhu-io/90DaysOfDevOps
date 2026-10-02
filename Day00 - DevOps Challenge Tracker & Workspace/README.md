@@ -9,7 +9,7 @@
 > **Philosophy**: *BUILD • BREAK • DEBUG • VERIFY*  
 > **Author**: Shubham Mane ([GitHub Profile](https://github.com/shubhu-io))  
 > **Repository**: [90-days-of-devops](https://github.com/shubhu-io/90-days-of-devops)  
-> **Project Directory**: [Day00 - DevOps Challenge Tracker & Workspace](https://github.com/shubhu-io/90-days-of-devops/tree/main/Day00%20-%20DevOps%20Challenge%20Tracker%20%26%20Workspace)
+> **Project Directory**: [Day00 - DevOps Challenge Tracker & Workspace](https://github.com/shubhu-io/90-days-of-devops/tree/main/Day00)
 
 
 <p align="center">
@@ -280,5 +280,5 @@ cat telemetry_report.json
 ## 🔗 Project Navigation
 
 - ⬅️ **Previous Day**: Day 00 (Start)
-- ➡️ **Next Day**: [Day 01 — Day01 - Linux Server Health Monitor](../Day01%20-%20Linux%20Server%20Health%20Monitor)
+- ➡️ **Next Day**: [Day 01 — Day01 - Linux Server Health Monitor](../Day01)
 - 📂 **Main Index**: [90 Days of DevOps — Overall Progress](../overall-progress.md)

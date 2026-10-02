@@ -9,7 +9,7 @@
 > **Philosophy**: *BUILD • BREAK • DEBUG • VERIFY*  
 > **Author**: Shubham Mane ([GitHub Profile](https://github.com/shubhu-io))  
 > **Repository**: [90-days-of-devops](https://github.com/shubhu-io/90-days-of-devops)  
-> **Project Directory**: [Day02 - Linux Process & Socket Auditor](https://github.com/shubhu-io/90-days-of-devops/tree/main/Day02%20-%20Linux%20Process%20%26%20Socket%20Auditor)
+> **Project Directory**: [Day02 - Linux Process & Socket Auditor](https://github.com/shubhu-io/90-days-of-devops/tree/main/Day02)
 
 
 <p align="center">
@@ -162,7 +162,7 @@ cat << JSON > telemetry_report.json
   "day": 2,
   "project": "Linux Process & Socket Auditor",
   "author": "Shubham Mane",
-  "github": "https://github.com/shubhu-io/90-days-of-devops/tree/main/Day02%20-%20Linux%20Process%20%26%20Socket%20Auditor",
+  "github": "https://github.com/shubhu-io/90-days-of-devops/tree/main/Day02",
   "timestamp": "2026-10-02T15:00:00Z",
   "status": "HEALTHY",
   "verification": "100% PASSED",
@@ -230,6 +230,6 @@ cat telemetry_report.json
 
 ## 🔗 Project Navigation
 
-- ⬅️ **Previous Day**: [Day 01 — Day01 - Linux Server Health Monitor](../Day01%20-%20Linux%20Server%20Health%20Monitor)
-- ➡️ **Next Day**: [Day 03 — Day03 - Automated Log Rotation & Archive Daemon](../Day03%20-%20Automated%20Log%20Rotation%20%26%20Archive%20Daemon)
+- ⬅️ **Previous Day**: [Day 01 — Day01 - Linux Server Health Monitor](../Day01)
+- ➡️ **Next Day**: [Day 03 — Day03 - Automated Log Rotation & Archive Daemon](../Day03)
 - 📂 **Main Index**: [90 Days of DevOps — Overall Progress](../overall-progress.md)
