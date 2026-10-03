@@ -9,7 +9,7 @@
 > **Philosophy**: *BUILD • BREAK • DEBUG • VERIFY*  
 > **Author**: Shubham Mane ([GitHub Profile](https://github.com/shubhu-io))  
 > **Repository**: [90-days-of-devops](https://github.com/shubhu-io/90-days-of-devops)  
-> **Project Directory**: [Day00 - DevOps Challenge Tracker & Workspace](https://github.com/shubhu-io/90-days-of-devops/tree/main/Day00)
+> **Project Directory**: [Day00](https://github.com/shubhu-io/90-days-of-devops/tree/main/Day00)
 
 
 <p align="center">

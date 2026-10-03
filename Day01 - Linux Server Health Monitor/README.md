@@ -9,7 +9,7 @@
 > **Philosophy**: *BUILD • BREAK • DEBUG • VERIFY*  
 > **Author**: Shubham Mane ([GitHub Profile](https://github.com/shubhu-io))  
 > **Repository**: [90-days-of-devops](https://github.com/shubhu-io/90-days-of-devops)  
-> **Project Directory**: [Day01 - Linux Server Health Monitor](https://github.com/shubhu-io/90-days-of-devops/tree/main/Day01)
+> **Project Directory**: [Day01](https://github.com/shubhu-io/90-days-of-devops/tree/main/Day01)
 
 <p align="center">
   <img src="linkedin_hero_1200x1500.png" alt="Day 01 Ultra-Premium LinkedIn Hero Graphic (1200x1500 px)" width="600" />
@@ -228,6 +228,6 @@ cat telemetry_report.json
 
 ## 🔗 Project Navigation
 
-- ⬅️ **Previous Day**: [Day 00 — Day00 - DevOps Challenge Tracker & Workspace](../Day00)
+- ⬅️ **Previous Day**: [Day 00 — Day00](../Day00)
 - ➡️ **Next Day**: [Day 02 — Day02 - Linux Process & Socket Auditor](../Day02)
 - 📂 **Main Index**: [90 Days of DevOps — Overall Progress](../overall-progress.md)
