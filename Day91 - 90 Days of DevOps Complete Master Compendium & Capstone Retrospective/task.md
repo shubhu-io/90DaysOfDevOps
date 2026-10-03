@@ -158,6 +158,6 @@ Across 90 intensive days, we engineered, tested, and documented:
 4. `execution.md` — Final capstone execution log and master telemetry report (100% Passing).
 5. `caption.txt` / `caption.md` — The Grand Finale LinkedIn post celebrating the full 90-day journey.
 6. `image-prompts.md` — Midjourney v6 / FLUX.1 prompts for the Capstone Trophy & Master Architecture Wall.
-7. 5 Campaign Visual Slides & Infographic (`slide_01_cover.svg` to `slide_05_summary.svg`, `linkedin_graphic.svg`).
+7. 5 Campaign Visual Slides & Infographic (`slide_01_cover.svg` to `slide_05_summary.svg`, `linkedin_graphic.jpg`).
 8. 5 High-Resolution Images (`image_01_hero.jpg` to `image_05_debug_result.jpg`).
 9. Dedicated `./screenshots/` workspace for final completion proof.

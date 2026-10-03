@@ -97,6 +97,6 @@ Every single day introduces a deliberate failure scenario:
 4. `execution.md` — Verified toolchain environment output (Git, Docker, Kubectl, Terraform ready).
 5. `caption.txt` / `caption.md` — Viral Day 00 launch post ready for LinkedIn.
 6. `image-prompts.md` — Midjourney v6 / FLUX.1 prompts for the 90-day launch visuals.
-7. 5 Campaign Visual Slides & Infographic (`slide_01_cover.svg` to `slide_05_summary.svg`, `linkedin_graphic.svg`).
+7. 5 Campaign Visual Slides & Infographic (`slide_01_cover.svg` to `slide_05_summary.svg`, `linkedin_graphic.jpg`).
 8. 5 High-Resolution Images (`image_01_hero.jpg` to `image_05_debug_result.jpg`).
 9. Dedicated `./screenshots/` workspace for terminal proof.

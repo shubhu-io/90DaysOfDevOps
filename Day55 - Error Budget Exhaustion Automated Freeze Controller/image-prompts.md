@@ -78,5 +78,5 @@
 
 ---
 
-## 🖼️ Master Infographic (linkedin_graphic.svg)
+## 🖼️ Master Infographic (linkedin_graphic.jpg)
 - High-resolution 1200x1200px 4-quadrant technical overview combining 3D Architecture, Transformation Mechanism, Live CLI Execution, and Incident Self-Healing into a single standalone visual artifact.

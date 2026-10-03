@@ -13,7 +13,7 @@
 
 
 <p align="center">
-  <img src="linkedin_hero_1200x1500.png" alt="Day90 Ultra-Premium LinkedIn Hero Graphic (1200x1500 px)" width="600" />
+  <img src="linkedin_hero_1200x1500.jpg" alt="Day90 Ultra-Premium LinkedIn Hero Graphic (1200x1500 px)" width="600" />
 </p>
 
 ---
@@ -87,7 +87,7 @@ Implement the primary specification for **90-Day DevOps Challenge Retrospective 
 ```bash
 # 90-Day Challenge Milestone Verification
 echo "🚀 90-Day DevOps • Cloud • AI Roadmap Completed!"
-ls -la Day*/linkedin_graphic.svg | wc -l
+ls -la Day*/linkedin_graphic.jpg | wc -l
 ```
 
 ---
@@ -201,7 +201,7 @@ cat telemetry_report.json
 - **Image 03 — Concept Visualization**: [`image_03_concept.jpg`](./image_03_concept.jpg) • Vector: [`slide_03_code.svg`](./slide_03_code.svg)
 - **Image 04 — Real Execution**: [`image_04_execution.jpg`](./image_04_execution.jpg) • Vector: [`slide_04_debug.svg`](./slide_04_debug.svg)
 - **Image 05 — Debugging & Result**: [`image_05_debug_result.jpg`](./image_05_debug_result.jpg) • Vector: [`slide_05_summary.svg`](./slide_05_summary.svg)
-- **Master Infographic**: [`linkedin_graphic.svg`](./linkedin_graphic.svg)
+- **Master Infographic**: [`linkedin_graphic.jpg`](./linkedin_graphic.jpg)
 
 ---
 

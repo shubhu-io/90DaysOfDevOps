@@ -24,7 +24,7 @@ Create the production specification:
 ```bash
 # 90-Day Challenge Milestone Verification
 echo "🚀 90-Day DevOps • Cloud • AI Roadmap Completed!"
-ls -la Day*/linkedin_graphic.svg | wc -l
+ls -la Day*/linkedin_graphic.jpg | wc -l
 ```
 
 ---

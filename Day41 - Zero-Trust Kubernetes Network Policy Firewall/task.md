@@ -47,4 +47,4 @@ Engineer and validate a production-ready **Zero-Trust Kubernetes Network Policy 
 3. caption.txt / caption.md — 2026 LinkedIn post ready for publication.
 4. image-prompts.md — Technical prompts for all 5 carousel slides.
 5. 5 Ultra-Colorful SVG Carousel Slides (slide_01_cover.svg to slide_05_summary.svg).
-6. Master Infographic (linkedin_graphic.svg) combining architecture, CLI, attack simulation, and telemetry.
+6. Master Infographic (linkedin_graphic.jpg) combining architecture, CLI, attack simulation, and telemetry.
